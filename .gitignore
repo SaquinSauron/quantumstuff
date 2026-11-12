@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+results/
+!examples/reference_results/
+
+
+# Embedded table extracted when replaying the updated workflow notebook
+sachin_meep_notebook_matched_TRIAL.csv
